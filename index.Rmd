@@ -10,8 +10,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-
 This portfolio the following skills that I have developed in VIS 2128 Spatial Analysis module:
 
 * Displaying multiple vector layers on the same map
@@ -39,7 +37,7 @@ The following two Boston maps explore walking times to the nearest parks and to 
 This plot shows MBTA bus stops within 250 m of a Boston public school (in red) and those outside of a 250 m buffer from a public school. The color scheme is fairly divergent, making the contrast between these two groups of bus stops clear. The following map displays the ability to calculate and display relationships among point and polygon layers based on distance.
 
 
-[![](thumbnails/Boston bus stops by distance to a public school.png)](https://tayntot.github.io/portfolio/thumbnails/Boston bus stops by distance to a public school.png"}
+[![](thumbnails/Boston bus stops by distance to a public school.png)](https://tayntot.github.io/portfolio/thumbnails/Boston bus stops by distance to a public school.png){target="_blank"}
 
 ## Number of Bus stops within each Boston Census Tract 
 Rather than Boston neighborhoods, this map displays the total number of MBTA bus stops in each of Boston’s 180 census tracts. We increased the color gradient to have additional breaks. We also see that Dorchester has an uneven distribution of bus stops in its census tracts, despite overall having the greatest number of bus stops. The following map displays the ability to aggregate point data to a layer of polygons
